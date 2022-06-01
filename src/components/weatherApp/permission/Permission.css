@@ -1,0 +1,36 @@
+#permission {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 90%, 0.5);
+  box-shadow: 3px 3px 7px black;
+  text-align: center;
+}
+
+.title {
+  margin: 0.5em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.content {
+  margin: 1em;
+}
+
+.content div, button {
+  margin: 0.3em;
+}
+
+.content button {
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+.content button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
