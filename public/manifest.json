@@ -1,10 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Local Weather",
+  "name": "Local Weather App",
   "icons": [
     {
-      "src": "weather.png",
+      "src": "cloudy1.png",
       "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "cloudy2.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],

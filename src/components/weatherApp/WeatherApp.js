@@ -107,15 +107,18 @@ class WeatherApp extends React.Component {
   
   
   render() {
-    if(this.state.permission) {
-      return <Weather
-        weather={this.state.weather}
-        fahrenheit={this.state.fahrenheit} 
-        toggleTemp={this.toggleTemp}/>;
-    } else {
-      return <Permission 
-        accessLocation={this.accessLocation}/>;
-    }
+    return (
+      <div id="weather-app">
+        {this.state.permission ?
+          <Weather
+          weather={this.state.weather}
+          fahrenheit={this.state.fahrenheit} 
+          toggleTemp={this.toggleTemp}/> :
+          <Permission 
+            accessLocation={this.accessLocation}/>
+        }
+      </div>
+    );
   }
 }
 
