@@ -1,6 +1,6 @@
 ## Local Weather App
 
-An application that given you basic information about your local weather, built with React, JavaScript, and CSS.
+An application that gives you basic information about your local weather, built with React, JavaScript, and CSS.
 
 ## Screen Shots(s)
 
